@@ -54,7 +54,6 @@ To ensure that Prometheus scrapes the /metrics endpoint efficiently, the decisio
 This ensures that the metrics are always up-to-date when scraped, but also have way faster response times.
 
 That way the /metrics endpoint remains responsive and ready for Prometheus to scrape with minimal overhead.
-
 This approach is one of many, but it provides a straightforward and simple solution.
 
 ## Setup Instructions
