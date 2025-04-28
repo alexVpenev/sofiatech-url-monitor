@@ -1,0 +1,54 @@
+# Python
+/docs
+\*.png
+
+**pycache**/
+_.pyc
+_.pyo
+\*.pyd
+
+# Virtual environments
+
+venv/
+env/
+_.venv/
+_.env/
+
+# Docker-related
+
+Dockerfile
+.dockerignore
+
+# Git
+
+.git
+.gitignore
+
+# Helm charts (and any Kubernetes configs if needed)
+
+helm-chart/
+\*.yaml
+
+# OS-specific
+
+.DS_Store
+Thumbs.db
+
+# Editor / IDE folders
+
+.vscode/
+.idea/
+\*.swp
+
+# Other
+
+_.log
+_.bak
+_.tmp
+_.md
+tests/
+coverage/
+dist/
+build/
+.eggs/
+\*.egg-info/
